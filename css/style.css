@@ -38,10 +38,22 @@ body {
   border-top-right-radius: 0;
 }
 
-.progress-bar-width{
+.progress-bar-height{
+  height: 8px;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+.width-100px {
+  width: 100px;
+}
+
+.width-300px {
   width: 300px;
 }
 
-.progress-bar-height{
-  height: 8px;
+.float-left {
+  float: left;
 }

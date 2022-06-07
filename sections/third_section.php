@@ -1,4 +1,4 @@
- <section id="second-section">
+ <section id="third-section" class="display-none">
  	<img class="mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
  	<div class="container">
  		<div class="row justify-content-md-center">
@@ -14,9 +14,9 @@
  		</div>
  	</div>				
  	<h4>Você está negativado(a)?</h4>
- 	<button class="w-75 btn btn-lg btn-primary mt-2" type="submit">
+ 	<button class="w-75 btn btn-lg btn-primary mt-2 btn-third-section" type="submit">
         <i class="bi bi-check2"></i> Sim
     </button>
- 	<button class="w-75 btn btn-lg btn-primary mt-2" type="submit">
+ 	<button class="w-75 btn btn-lg btn-primary mt-2 btn-third-section" type="submit">
     <i class="bi bi-x"></i>Não</button>
  </section>

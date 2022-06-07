@@ -9,3 +9,9 @@ $(".btn-secod-section").click(function() {
      $("#third-section").slideDown(900);
   });
 });
+
+$(".btn-third-section").click(function() {
+  $("#third-section").slideUp(900, function(){
+     $("#fourth-section").slideDown(900);
+  });
+});

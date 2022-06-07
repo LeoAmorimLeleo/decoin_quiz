@@ -54,10 +54,14 @@ body {
   width: 300px;
 }
 
-.float-left {
-  float: left;
-}
-
 .display-none {
   display: none;
+}
+
+.font-size-50 {
+  font-size: 50px;
+}
+
+.font-size-20 {
+  font-size: 20px;
 }

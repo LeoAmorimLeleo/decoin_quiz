@@ -1,4 +1,4 @@
- <section id="third-section" class="display-none">
+ <section id="third-section" class="display-none text-center">
  	<img class="mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
  	<div class="container">
  		<div class="row justify-content-md-center">

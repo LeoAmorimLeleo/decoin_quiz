@@ -23,12 +23,13 @@
 		}
 	</style>
 </head>
-<body class="text-center">
+<body class="">
 	<main class="container col-md-5">
 		<?php include 'sections/first_section.php'; ?>
 		<?php include 'sections/second_section.php'; ?>
 		<?php include 'sections/third_section.php'; ?>
-		<p class="mt-4 mb-3 text-muted">&copy; <?php echo date("Y") ?></p>
+		<?php include 'sections/fourth_section.php'; ?>
+		<p class="mt-4 mb-3 text-muted text-center">&copy; <?php echo date("Y") ?></p>
 	</main>
 	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
 	<script type="text/javascript" src="js/transition-effects.js"></script>

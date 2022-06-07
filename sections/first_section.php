@@ -1,4 +1,4 @@
- <section id="first-section">
+ <section id="first-section" class="text-center">
  	<img class="mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
  	<h1 class="h3 mb-3 fw-normal text-uppercase">Descubra o cartão de crédito ideal para você!</h1>
  	<p>Responda essas perguntas e descubra o cartão de crédito para você!</p>

@@ -20,5 +20,5 @@
  	<button class="w-100 btn btn-lg btn-primary mt-2 btn-frist-section" type="submit">Aposentado(a) / Servidor(a) Público</button>
  	<button class="w-100 btn btn-lg btn-primary mt-2 btn-frist-section" type="submit">Carteira Assinada </button>
  	<button class="w-100 btn btn-lg btn-primary mt-2 btn-frist-section" type="submit">Estudante</button>
- 	<button class="w-100 btn btn-lg btn-primary mt-2" type="submit">Estou Desempregado(a) </button>
+ 	<button class="w-100 btn btn-lg btn-primary mt-2 btn-frist-section" type="submit">Estou Desempregado(a) </button>
  </section>

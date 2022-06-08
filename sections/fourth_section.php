@@ -6,13 +6,12 @@
 	</div>		
 	<form>
 		<div class="form-group mt-4">
-			<label for="exampleInputEmail1 float-left">Nome e Sobrenome</label>
-			<label for="nome-sobrenom"></label>
-			<input type="text" class="form-control" id="nome-sobrenome" placeholder="Coloque o seu nome e Sobrenome">
+			<label for="input-nome-sobrenome">Nome e Sobrenome</label>
+			<input type="text" class="form-control" id="input-nome-sobrenome" placeholder="Coloque o seu nome e Sobrenome">
 		</div>
 		<div class="form-group mt-4">
-			<label for="exampleInputEmail1 float-left">Email</label>
-			<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="email" placeholder="Coloque o seu melhor Email">
+			<label for="input-email">Email</label>
+			<input type="email" class="form-control" id="input-email" aria-describedby="email" placeholder="Coloque o seu melhor Email">
 		</div>
 	</form>	
 	<div class="text-center">

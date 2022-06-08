@@ -32,9 +32,11 @@
 		<p class="mt-4 mb-3 text-muted text-center">&copy; <?php echo date("Y") ?></p>
 	</main>
 	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.min.js"></script>	
 	<script type="text/javascript" src="js/transition-effects.js"></script>
 	<script type="text/javascript" src="js/autocomplete.libary.min.js"></script>
 	<script type="text/javascript" src="js/email-autocomplete.js"></script>
+	<script type="text/javascript" src="js/form-validation.js"></script>	
 	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>	
 </body>
 </html>

@@ -20,17 +20,11 @@ $(document).ready(function() {
 			}
 			$.ajax({
            		dataType:'application/json',
-	          	url:"teste.php",
+	          	url:"contact_add.php",
 	           	type:"POST",
-	           	data:(data),
-	           	beforeSend: function(data){ 
-	           		console.log(data);
-	           	},
-	           	success:function(data){
-	           		console.log(data);
-	               alert("Dados Enviados");
-	           	}, 
+	           	data:(data), 
 	           	complete: function(data){
+	           		alert("completo")
 	           		console.log(data);
 	           	}
            });

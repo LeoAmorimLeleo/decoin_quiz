@@ -1,7 +1,7 @@
 <?php
 
 // By default, this sample code is designed to get the result from your ActiveCampaign installation and print out the result
-$url = 'http://account.api-us1.com';
+$url = 'https://decoin.api-us1.com';
 
 
 $params = array(
@@ -38,7 +38,7 @@ $post = array(
     //'field[%PERS_1%,0]'      => 'field value', // using the personalization tag instead (make sure to encode the key)
 
     // assign to lists:
-    'p[2]'                   => 123, // example list ID (REPLACE '123' WITH ACTUAL LIST ID, IE: p[5] = 5)
+    'p[123]'                   => 2, // example list ID (REPLACE '123' WITH ACTUAL LIST ID, IE: p[5] = 5)
     'status[1]'              => 1, // 1: active, 2: unsubscribed (REPLACE '123' WITH ACTUAL LIST ID, IE: status[5] = 1)
     //'form'          => 1001, // Subscription Form ID, to inherit those redirection settings
     //'noresponders[123]'      => 1, // uncomment to set "do not send any future responders"
@@ -101,27 +101,9 @@ $result = unserialize($response);
 // XML parser...
 // ...
 
-// Result info that is always returned
-echo 'Result: ' . ( $result['result_code'] ? 'SUCCESS' : 'FAILED' ) . '<br />';
-echo 'Message: ' . $result['result_message'] . '<br />';
-
 // The entire result printed out
 echo 'The entire result printed out:<br />';
 echo '<pre>';
 print_r($result);
 echo '</pre>';
 
-// Raw response printed out
-echo 'Raw response printed out:<br />';
-echo '<pre>';
-print_r($response);
-echo '</pre>';
-
-// API URL that returned the result
-echo 'API URL that returned the result:<br />';
-echo $api;
-
-echo '<br /><br />POST params:<br />';
-echo '<pre>';
-print_r($post);
-echo '</pre>';?>

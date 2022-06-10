@@ -1,4 +1,4 @@
-$("#input-email").emailautocomplete({
+$("#input_email").emailautocomplete({
 	domain: [
 		"gmail.com",
 		"hotmail",

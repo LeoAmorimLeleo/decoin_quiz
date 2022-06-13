@@ -7,24 +7,14 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 	<title>DESCUBRA O CARTÃO DE CRÉDITO IDEAL PARA VOCÊ!</title>
-	<style>
-		.bd-placeholder-img {
-			font-size: 1.125rem;
-			text-anchor: middle;
-			-webkit-user-select: none;
-			-moz-user-select: none;
-			user-select: none;
-		}
-
-		@media (min-width: 768px) {
-			.bd-placeholder-img-lg {
-				font-size: 3.5rem;
-			}
-		}
-	</style>
 </head>
 <body class="">
 	<main class="container col-md-5">
+		<?php
+			echo $_GET['utm_source'];
+			echo $_GET['utm_medium'];
+			echo $_GET['utm_campaign'];
+		?>
 		<?php include 'sections/first_section.php'; ?>
 		<?php include 'sections/second_section.php'; ?>
 		<?php include 'sections/third_section.php'; ?>
@@ -36,6 +26,7 @@
 	<script type="text/javascript" src="js/transition-effects.js"></script>
 	<script type="text/javascript" src="js/autocomplete.libary.min.js"></script>
 	<script type="text/javascript" src="js/email-autocomplete.js"></script>
+	<script type="text/javascript" src="js/redirect.js"></script>
 	<script type="text/javascript" src="js/form-validation.js"></script>	
 	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>	
 </body>

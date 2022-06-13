@@ -101,9 +101,27 @@ $result = unserialize($response);
 // XML parser...
 // ...
 
+// Result info that is always returned
+echo 'Result: ' . ( $result['result_code'] ? 'SUCCESS' : 'FAILED' ) . '<br />';
+echo 'Message: ' . $result['result_message'] . '<br />';
+
 // The entire result printed out
 echo 'The entire result printed out:<br />';
 echo '<pre>';
 print_r($result);
 echo '</pre>';
 
+// Raw response printed out
+echo 'Raw response printed out:<br />';
+echo '<pre>';
+print_r($response);
+echo '</pre>';
+
+// API URL that returned the result
+echo 'API URL that returned the result:<br />';
+echo $api;
+
+echo '<br /><br />POST params:<br />';
+echo '<pre>';
+print_r($post);
+echo '</pre>';?>

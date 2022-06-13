@@ -7,8 +7,9 @@ $(document).ready(function() {
 			input_email: {
 				required: true,
 				email: true
-			}
+			},
 		},
+		errorElement: 'span',
 		messages: {
 			input_full_name: "Coloque seu nome",
 			input_email: "Coloque um email válido"
@@ -26,8 +27,11 @@ $(document).ready(function() {
 	           	complete: function(data){
 	           		alert("completo")
 	           		console.log(data);
+	           		redirect();
+	           		//https://decoin.com.br/quiz-1?utm_source=facebook&utm_medium=lead&utm_campaign=CA01-DYNAMIC-05
 	           	}
            });
 		}
 	})
 });
+

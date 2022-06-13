@@ -10,11 +10,6 @@
 </head>
 <body class="">
 	<main class="container col-md-5">
-		<?php
-			echo $_GET['utm_source'];
-			echo $_GET['utm_medium'];
-			echo $_GET['utm_campaign'];
-		?>
 		<?php include 'sections/first_section.php'; ?>
 		<?php include 'sections/second_section.php'; ?>
 		<?php include 'sections/third_section.php'; ?>

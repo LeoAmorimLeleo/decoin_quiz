@@ -25,10 +25,8 @@ $(document).ready(function() {
 	           	type:"POST",
 	           	data:(data), 
 	           	complete: function(data){
-	           		alert("completo")
 	           		console.log(data);
 	           		redirect();
-	           		//https://decoin.com.br/quiz-1?utm_source=facebook&utm_medium=lead&utm_campaign=CA01-DYNAMIC-05
 	           	}
            });
 		}

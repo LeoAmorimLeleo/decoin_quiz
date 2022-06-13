@@ -1,6 +1,11 @@
  <section id="third-section" class="display-none text-center">
  	<img class="mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
- 	<div class="container">
+ 	<div class="row mb-2">
+              <img src="images/sentado-pensando.jpg" 
+               class="rounded mx-auto d-block width-125px height-120px" 
+               alt="Qual sua renda mensal?">           
+       </div>
+       <div class="container">
  		<div class="row justify-content-md-center">
  			<div class="col col-md-10">
  				<div class="progress progress-bar-height mt-2">

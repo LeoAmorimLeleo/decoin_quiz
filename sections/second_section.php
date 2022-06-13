@@ -1,5 +1,7 @@
  <section id="second-section" class="display-none text-center">
- 	<img class="mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+ 	<img class="mb-4 logo" 
+    src="https://decoin.com.br/wp-content/uploads/2021/09/Logo-dourada-deitada-com-nome.png" 
+    alt="">
     <div class="row mb-2">
         <img src="images/renda-mensal.png" 
         class="rounded mx-auto d-block width-125px height-120px" 

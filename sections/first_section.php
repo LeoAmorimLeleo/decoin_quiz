@@ -1,5 +1,7 @@
  <section id="first-section" class="text-center">
- 	<img class="mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+ 	<img class="mb-4 logo" 
+    src="https://decoin.com.br/wp-content/uploads/2021/09/Logo-dourada-deitada-com-nome.png"
+    alt="">
  	<h1 class="h3 mb-3 fw-normal text-uppercase">Descubra o cartão de crédito ideal para você!</h1>
  	<p>Responda essas perguntas e descubra o cartão de crédito para você!</p>
  	<p>Não dura 30 segundos!</p>

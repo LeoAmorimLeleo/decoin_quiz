@@ -1,6 +1,6 @@
 <section id="fourth-section" class="display-none">
 	<div class="text-center">
-		<img class="mb-4 text-center" src="https://leads-hub.s3.sa-east-1.amazonaws.com/quizzes/memivi-quiz-logo.jpeg" alt="" width="72" height="57">
+		<img class="mb-4 text-center logo" src="https://decoin.com.br/wp-content/uploads/2021/09/Logo-dourada-deitada-com-nome.png" alt="">
 		<h2 class="font-size-50 text-primary">Perfeito!</h2>
 		<label class="font-size-20">Prencha os dados abaixo e saiba como pegar seu cartão de crédito.</label>
 	</div>		

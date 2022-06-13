@@ -7,5 +7,6 @@ function redirect() {
 
 	const urlRedirect = `https://decoin.com.br/quiz-1${url.toString()}`;
 	const decodedUri = decodeURIComponent(urlRedirect);	
+	console.log(decodedUri);
 	window.location.href = decodedUri;
 }

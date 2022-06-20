@@ -1,5 +1,4 @@
- <section id="third-section" class="display-none text-center">
- 	<img class="mb-4 logo" src="https://decoin.com.br/wp-content/uploads/2021/09/Logo-dourada-deitada-com-nome.png" alt="">
+ <section id="third-section" class="display-none text-center">       
  	<div class="row mb-2">
               <img src="images/sentado-pensando.jpg" 
                class="rounded mx-auto d-block width-125px height-120px" 
@@ -19,9 +18,11 @@
  		</div>
  	</div>				
  	<h4>Você está negativado(a)?</h4>
- 	<button class="w-75 btn btn-lg btn-primary mt-2 btn-third-section" type="submit">
+ 	<button class="w-75 btn btn-lg btn-primary mt-2 btn-third-section 
+        button-black" type="submit">
         <i class="bi bi-check2"></i> Sim
     </button>
- 	<button class="w-75 btn btn-lg btn-primary mt-2 btn-third-section" type="submit">
-    <i class="bi bi-x"></i>Não</button>
+ 	<button class="w-75 btn btn-lg btn-primary mt-2 btn-third-section 
+        button-black" type="submit">
+        <i class="bi bi-x"></i>Não</button>
  </section>

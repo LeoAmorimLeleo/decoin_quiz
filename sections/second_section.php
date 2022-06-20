@@ -1,7 +1,4 @@
- <section id="second-section" class="display-none text-center">
- 	<img class="mb-4 logo" 
-    src="https://decoin.com.br/wp-content/uploads/2021/09/Logo-dourada-deitada-com-nome.png" 
-    alt="">
+ <section id="second-section" class="display-none text-center"> 	
     <div class="row mb-2">
         <img src="images/renda-mensal.png" 
         class="rounded mx-auto d-block width-125px height-120px" 
@@ -21,8 +18,16 @@
  		</div>
  	</div>				
  	<h4>Qual sua renda mensal?</h4>
- 	<button class="w-100 btn btn-lg btn-primary mt-2 btn-secod-section" type="submit">Até R$ 1.000</button>
- 	<button class="w-100 btn btn-lg btn-primary mt-2 btn-secod-section" type="submit">Entre R$ 1.000 e R$ 2.000</button>
- 	<button class="w-100 btn btn-lg btn-primary mt-2 btn-secod-section" type="submit">Entre R$ 2.001 e R$ 4.000</button>
- 	<button class="w-100 btn btn-lg btn-primary mt-2 btn-secod-section" type="submit">Acima de R$ 4.001</button>
+ 	<button class="w-100 btn btn-lg btn-primary mt-2 btn-secod-section button-black" 
+      type="submit">Até R$ 1.000
+   </button>
+ 	<button class="w-100 btn btn-lg btn-primary mt-2 btn-secod-section button-black" 
+      type="submit">Entre R$ 1.000 e R$ 2.000
+   </button>
+ 	<button class="w-100 btn btn-lg btn-primary mt-2 btn-secod-section button-black" 
+      type="submit">Entre R$ 2.001 e R$ 4.000
+   </button>
+ 	<button class="w-100 btn btn-lg btn-primary mt-2 btn-secod-section button-black" 
+      type="submit">Acima de R$ 4.001
+   </button>
  </section>

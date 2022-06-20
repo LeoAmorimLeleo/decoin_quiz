@@ -8,14 +8,18 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 	<title>DESCUBRA O CARTÃO DE CRÉDITO IDEAL PARA VOCÊ!</title>
 </head>
-<body class="">
-	<main class="container col-md-5">
-		<?php include 'sections/first_section.php'; ?>
+<body>
+	<div class="text-center div-logo mt-4 fixed-top">
+        <img class="logo" 
+    	src="images/logo2.jpeg" alt="">
+    </div>
+	<div class="container">       
+        <?php include 'sections/first_section.php'; ?>
 		<?php include 'sections/second_section.php'; ?>
 		<?php include 'sections/third_section.php'; ?>
 		<?php include 'sections/fourth_section.php'; ?>
-		<p class="mt-4 mb-3 text-muted text-center">&copy; <?php echo date("Y") ?></p>
-	</main>
+		<p class="mt-4 mb-3 text-muted text-center">&copy; <?php echo date("Y") ?></p>    
+   	<div>
 	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
 	<script type="text/javascript" src="js/jquery.validate.min.js"></script>	
 	<script type="text/javascript" src="js/transition-effects.js"></script>

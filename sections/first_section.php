@@ -1,7 +1,4 @@
- <section id="first-section" class="text-center">
- 	<img class="mb-4 logo" 
-    src="https://decoin.com.br/wp-content/uploads/2021/09/Logo-dourada-deitada-com-nome.png"
-    alt="">
+<section id="first-section" class="text-center">
  	<h1 class="h3 mb-3 fw-normal text-uppercase">Descubra o cartão de crédito ideal para você!</h1>
  	<p>Responda essas perguntas e descubra o cartão de crédito para você!</p>
  	<p>Não dura 30 segundos!</p>
@@ -19,8 +16,15 @@
  		</div>
  	</div>				
  	<h4>Qual é a sua situação atual?</h4>
- 	<button class="w-100 btn btn-lg btn-primary mt-2 btn-frist-section" type="submit">Aposentado(a) / Servidor(a) Público</button>
- 	<button class="w-100 btn btn-lg btn-primary mt-2 btn-frist-section" type="submit">Carteira Assinada </button>
- 	<button class="w-100 btn btn-lg btn-primary mt-2 btn-frist-section" type="submit">Estudante</button>
- 	<button class="w-100 btn btn-lg btn-primary mt-2 btn-frist-section" type="submit">Estou Desempregado(a) </button>
+ 	<button class="w-100 btn btn-lg btn-primary button-black 
+        mt-2 btn-frist-section" type="submit">Aposentado(a) / Servidor(a) Público
+    </button>
+ 	<button class="w-100 btn btn-lg btn-primary mt-2 btn-frist-section button-black" 
+        type="submit">Carteira Assinada 
+    </button>
+ 	<button class="w-100 btn btn-lg btn-primary mt-2 btn-frist-section button-black" 
+        type="submit">Estudante</button>
+ 	<button class="w-100 btn btn-lg btn-primary mt-2 btn-frist-section button-black" 
+        type="submit">Estou Desempregado(a)
+    </button>
  </section>

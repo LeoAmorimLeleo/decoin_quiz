@@ -6,7 +6,6 @@ function redirect() {
 	const utmCampaign = urlParams.get("utm_campaign");
 
 	const urlRedirect = `https://decoin.com.br/cartoes-de-credito-pre-aprovados/${url.toString()}`;
-	const decodedUri = decodeURIComponent(urlRedirect);	
-	console.log(decodedUri);
+	const decodedUri = decodeURIComponent(urlRedirect);
 	window.location.href = decodedUri;
 }

@@ -10,7 +10,7 @@
     $post = array(
         'email'                    => $_POST['email'],
         'first_name'               => $_POST['fullName'],
-        'last_name'                => $_POST['fullName'],
+        'last_name'                => '',
         'phone'                    => '',
         'customer_acct_name'       => '',
         'tags'                     => 'api',

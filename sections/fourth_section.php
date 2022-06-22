@@ -1,6 +1,6 @@
 <section id="fourth-section" class="display-none">
 	<div class="text-center">
-		<h2 class="font-size-50 text-primary">Perfeito!</h2>
+		<h2 class="font-size-50 font-color-black">Perfeito!</h2>
 		<label class="font-size-20">Prencha os dados abaixo e saiba como pegar seu cartão de crédito.</label>
 	</div>		
 	<form id="form-get-card" method="post">

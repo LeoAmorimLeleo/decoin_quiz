@@ -89,6 +89,10 @@ body {
   border-color: #2d3436;
 }
 
+.font-color-black{
+  color: #2d3436;
+}
+
 @media (max-width: 575.98px) {
   .logo {
     width: 60px;

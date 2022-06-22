@@ -25,6 +25,7 @@ $(document).ready(function() {
 	           	type:"POST",
 	           	data:(data), 
 	           	complete: function(data){
+	           		console.log(data);
 	           		redirect();
 	           	}
            });

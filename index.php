@@ -19,7 +19,7 @@
 		<?php include 'sections/third_section.php'; ?>
 		<?php include 'sections/fourth_section.php'; ?>
 		<div class="text-center mt-4">
-			<span class="mt-4 mb-3 text-muted">&copy; <?php echo date("Y") ?></span>   
+			<span class="mt-4 mb-3 text-muted">&copy; <?php echo date("Y") ?> - </span>   
 			<a href="https://decoin.com.br/politica-de-privacidade/" 
 				class="text-decoration-none">Política de Privacidade
 			</a> 

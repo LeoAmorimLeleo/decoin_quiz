@@ -13,7 +13,7 @@
         <img class="logo" 
     	src="images/logo2.jpeg" alt="">
     </div>
-	<div class="container col-md-4">       
+	<div class="container col-md-6 col-xl-4 col-lg-8">       
         <?php include 'sections/first_section.php'; ?>
 		<?php include 'sections/second_section.php'; ?>
 		<?php include 'sections/third_section.php'; ?>
